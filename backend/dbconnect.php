@@ -8,8 +8,18 @@ $dbname = "opengaw";
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
     $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    #echo "Connected successfully"; Disabled unless needed for debugging
+    echo "Database connection successful"; #Disable unless needed for debugging
 } catch(PDOException $e) {
-    echo "Connection failed: " . $e->getMessage();
+    echo "Connection failed, please debug: " . $e->getMessage();
+}
+$sql = "create table betaTesters (
+    userid int not null auto_increment,
+    username varchar(24) not null,
+    email varchar(255),
+    primary key (userid)
+    )";
+
+function regUsr() {
+
 }
 ?>

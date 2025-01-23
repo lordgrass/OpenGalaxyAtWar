@@ -12,14 +12,6 @@ try {
 } catch(PDOException $e) {
     echo "Connection failed, please debug: " . $e->getMessage();
 }
-$sql = "create table betaTesters (
-    userid int not null auto_increment,
-    username varchar(24) not null,
-    email varchar(255),
-    primary key (userid)
-    )";
 
-function regUsr() {
-
-}
 ?>
+

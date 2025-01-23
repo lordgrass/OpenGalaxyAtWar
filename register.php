@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Open-GAW | Register for an account | Lordgrass.com</title>
+<link rel="stylesheet" type="text/css" href="global.css" />
 </head>
 <body>
 <div>

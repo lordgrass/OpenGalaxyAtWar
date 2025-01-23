@@ -1,0 +1,16 @@
+/*
+Stylesheet for entire site: Author: J. Aurandt
+*/
+body {
+    background-color: black;
+    color: white;
+}
+
+.CenterText {
+    text-align: center;
+}
+
+.CenterItemHorizontally {
+    margin-left: 50%; margin-right: 50%;
+
+}
